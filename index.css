@@ -1,0 +1,418 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background:  #FFFFFF;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav and header styling starts here */
+
+.navLinkchild, .navLinktag, .navlinkbtn, #cac-btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #8009E7;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    box-sizing: border-box;
+    padding: 12px 96px;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.navLinks{
+    padding: 0;
+}
+
+.navLinks li {
+    margin-right: 40px;
+}
+
+
+.navLinkchild {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 12px;
+    }
+
+#cac-btn{
+    width: 168px;
+    height: 44px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: 1px ;
+    background-color: #8009E7;
+    cursor: pointer;
+}
+
+/* .material-symbols-outlined{
+
+} */
+
+#login-btn{
+width: 83.13px;
+height: 44px;
+border-radius: 8px;
+cursor: pointer;
+box-sizing: border-box;
+background-color: #FFFFFF;
+border: 0.5px solid #e9cfff ;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 271.13px;
+}
+
+/* Nav and header styling ends here */
+
+/* Grid styling */
+.gridContainer{
+    display: grid;
+    grid-template-rows: repeat(5);
+    border: solid yellow 1px; 
+    gap: 0;
+}
+
+/* Hero section styling starts here */
+
+.heroSection{
+    height: 739px;
+    width:auto;
+    background-image: linear-gradient(153.95deg, rgba(218, 201, 255, 0) 71.94%, rgba(207, 169, 255, 0.11) 79.04%);
+}
+
+.herocontainer{
+    height: 539.54px;
+    width: auto;
+    margin: 96px 0 96px 96px;
+    display: flex;
+}
+
+
+.leftHerocontent, .rightHerocontent{
+    width: 50%;
+}
+
+.rightHerocontent{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.leftHerocontent{
+    margin: 32px 0;
+}
+.HeroH1 {
+    font-family: Outfit;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 69.6px;
+    text-align: left;
+    color: #121212;
+    width: 638px;
+    height: 210px;
+    margin: 0;
+}
+
+.HeroH1 span {
+    font-family: Outfit;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 69.6px;
+    text-align: left;
+    color: #680DB3;
+    
+}
+
+.Heroh-tag{
+    color: #1C1D1F;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 400;      
+    line-height: 32px;
+    text-align: left;
+    width: 597px;
+    height: 96px;
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+
+.downloadDiv{
+    width: 410px;
+height: 89px;
+padding: 16px 20px 11.35px 0px;
+display: flex;
+justify-content: space-between;
+}
+
+.LeftHeroImg1, .LeftHeroImg2{
+    width: 184.95px;
+height: 61.65px;
+}
+/* Hero section styling ends here */
+
+/* Benefit section styling starts here */
+
+.benefitSection{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    height: 903px;
+    
+}
+.centrediv-benefitSection{
+    width: 388px;
+    height: 85px;
+margin-top: 120px;
+align-self: center;
+
+}
+
+.H4-benefitSection{
+    width: 388px;
+    height: 43px;
+   text-align: center;
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 26.4px;
+    margin: 0%;
+    /* top: 162px;
+left: 526px; */    
+color:#680DB3;
+}
+
+.H3-benefitSection{
+font-family: 'Outfit';
+font-size: 36px;
+font-weight: 500;
+line-height: 43.2px;
+width: 388px;
+margin: 0%;
+}
+
+.benefitSection-box{
+   
+    width: 1300px;
+    align-self: center;
+    margin-bottom: 173px;
+    margin-top: 112px;
+    height: 413px;
+    display: flex;
+}
+
+.benefitBox, .benefitImg{
+width: 50%;
+
+}
+
+.benefitBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.benefitImg{
+background-color: #E7E7E7;
+}
+
+.benefits{
+
+    display: flex;
+    gap: 32px;
+}
+
+.benefits-iconContainer{
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #680DB3;
+    display: flex;
+}
+.benefits-icon{
+   margin: auto;
+}
+
+.benefith5Container{
+    width: 467px;
+}
+
+.benefith5{
+font-family: 'Roboto';
+font-size: 24px;
+font-weight: 500;
+line-height: 28.8px;
+text-align: left;
+margin: 0%;
+color: #040815;
+}
+
+.benefitp{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin: 0%;
+color: #3D3D3D;
+}
+/* Benefit section styling ends here */
+
+/* Feature section starts here */
+
+.featuresSection{
+height: 1927px;
+background-color:#FFFFFF;
+width: auto;
+display: flex;
+flex-direction: column;
+}
+
+.centrediv-featureSection{
+    width: 700px;
+    height: 85px;
+margin-top: 120px;
+align-self: center;
+align-content: center;
+display: flex;
+flex-direction: column;
+
+}
+
+.H4-featureSection{
+    width: 388px;
+    height: 43px;
+   text-align: center;
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 26.4px;
+    margin: 0%;
+color:#680DB3; 
+align-self: center;
+
+}
+
+.H3-featureSection{
+    font-family: 'Outfit';
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.2px;
+    width: 700px;
+    margin: 0%;  
+    text-align: center;
+    align-self: center;
+}
+
+.FeatureSection-container{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+        align-self: center;
+        height: 1927px; 
+        width: 1177px;
+        margin: 135px 123px 135px 123px;
+
+      }
+
+  .featureBox1, .featureBox2 {
+   
+        width: 540px;
+        height: 705px;
+        background-color: #F6F7F9;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        column-gap: auto;
+        flex-wrap: wrap;
+        align-content: space-between;   
+        position: relative;     
+}
+
+.featureBox1{
+    align-self:flex-start 
+}
+
+.featureBox2{
+    align-self: flex-end;
+}
+.features{
+    width: 448px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 62px;
+    margin-left: 54px;
+    margin-right: 38px;
+ 
+
+}
+
+.features-iconContainer{
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    background-color:#8057CCCC;
+    display: flex; 
+    
+}
+
+.featuresh5 ,.featuresp{
+    margin: 0%;
+}
+
+.featuresh5{
+    font-family: 'Outfit';
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.2px;
+    text-align: left;
+   color: #101828;
+   width: auto;
+   height: auto;
+    
+
+}
+
+.featuresp
+{
+   
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: left;
+color: #667085;
+width: auto;
+   height: auto;
+
+}
+
+.featureImg{
+    border: #040815 1px solid;
+    width: 388px;
+    height: 300px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0;
+
+}
+
+/* feature section ends here */
+
+/* CTA Section */
+
