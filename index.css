@@ -279,8 +279,8 @@ flex-direction: column;
 }
 
 .centrediv-featureSection{
-    width: 700px;
-    height: 85px;
+width: 700px;
+height: 85px;
 margin-top: 120px;
 align-self: center;
 align-content: center;
@@ -414,5 +414,110 @@ width: auto;
 
 /* feature section ends here */
 
-/* CTA Section */
+
+
+  /* Responsiveness for smaller screens (e.g., mobile phones) */
+@media (max-width: 768px) {
+    .header {
+      padding: 12px 24px;
+    }
+  
+    .navLinks {
+      display: none; 
+    }
+  
+    .navBar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .navLinkchild {
+      display: none; 
+    }
+  
+    .btnContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    .navlinkbtn, #login-btn {
+      width: 100%; 
+      margin-bottom: 10px;
+    }
+  
+    .HeroH1 {
+      font-size: 32px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .Heroh-tag {
+      font-size: 18px; 
+      width: 100%;
+      text-align: center;
+    }
+  
+    .benefitSection-box {
+      flex-direction: column; 
+    }
+  
+    .featureBox1,
+    .featureBox2 {
+      width: 100%; 
+      margin-bottom: 30px;
+    }
+  
+    .featureImg {
+      width: 100%; 
+      border-radius: 0; 
+    }
+  }
+
+  /* Responsiveness for medium-sized screens (e.g., tablets) */
+@media (max-width: 992px) {
+    .header {
+      padding: 12px 48px;
+    }
+  
+    .navLinks {
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .navLinkchild {
+      display: block; 
+      margin-right: 20px;
+    }
+  
+    .HeroH1 {
+      font-size: 48px;
+      width: 80%; 
+      text-align: left;
+    }
+  
+    .Heroh-tag {
+      font-size: 20px; 
+      width: 80%; 
+      text-align: left;
+    }
+  
+    .benefitSection-box {
+      flex-direction: row; 
+      justify-content: space-between;
+    }
+  
+    .featureBox1,
+    .featureBox2 {
+      width: 45%; 
+      margin-bottom: 0; 
+    }
+  
+    .featureImg {
+      width: 100%; 
+      border-radius: 20px; 
+    }
+  }
 
