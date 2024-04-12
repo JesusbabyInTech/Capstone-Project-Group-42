@@ -2,12 +2,20 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     background:  #FFFFFF;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    padding: 0%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
+
+
 /* Nav and header styling starts here */
+
+.logo{
+    width: 56px;
+height: 52px;
+}
 
 .navLinkchild, .navLinktag, .navlinkbtn, #cac-btn {
     font-family: 'Roboto';
@@ -22,10 +30,15 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 84px;
+    height: 120px;
     box-sizing: border-box;
-    padding: 12px 96px;
-    border-bottom: 1px solid #EDEDED;
+    padding: 0px 128px;
+    border-bottom: 1.5px solid rgba(245, 234, 255, 0.50);
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(17, 24, 39, 0.06);
+    width: 1440px;
+    position: fixed;
+    z-index: 1000;
 }
 
 .navLinks{
@@ -78,9 +91,10 @@ border: 0.5px solid #e9cfff ;
 /* Grid styling */
 .gridContainer{
     display: grid;
-    grid-template-rows: repeat(5);
-    border: solid yellow 1px; 
+    /* grid-template-rows: repeat(5); */
     gap: 0;
+    width: 1440px;
+    
 }
 
 /* Hero section styling starts here */
@@ -88,13 +102,15 @@ border: 0.5px solid #e9cfff ;
 .heroSection{
     height: 739px;
     width:auto;
-    background-image: linear-gradient(153.95deg, rgba(218, 201, 255, 0) 71.94%, rgba(207, 169, 255, 0.11) 79.04%);
+    /* background-image: linear-gradient(153.95deg, rgba(218, 201, 255, 0) 71.94%, rgba(207, 169, 255, 0.11) 79.04%); */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(253, 246, 255, 0.44) 100%);
+
 }
 
 .herocontainer{
     height: 539.54px;
     width: auto;
-    margin: 96px 0 96px 96px;
+    margin: 264px 0 180px 128px;
     display: flex;
 }
 
@@ -163,10 +179,12 @@ height: 61.65px;
 /* Benefit section styling starts here */
 
 .benefitSection{
-    width: auto;
     display: flex;
     flex-direction: column;
     height: 903px;
+    box-sizing: border-box;
+    margin-left: 128px;
+    margin-right: 128px;
     
 }
 .centrediv-benefitSection{
@@ -201,13 +219,16 @@ margin: 0%;
 }
 
 .benefitSection-box{
-   
-    width: 1300px;
-    align-self: center;
+    box-sizing: border-box;
+    border: 1px black solid;
+    width: 100%;
     margin-bottom: 173px;
     margin-top: 112px;
+    align-self: center;
     height: 413px;
     display: flex;
+    padding: 0%;
+    
 }
 
 .benefitBox, .benefitImg{
@@ -273,7 +294,9 @@ color: #3D3D3D;
 .featuresSection{
 height: 1927px;
 background-color:#FFFFFF;
-width: auto;
+box-sizing: border-box;
+    margin-left: 128px;
+    margin-right: 128px;
 display: flex;
 flex-direction: column;
 }
@@ -322,14 +345,14 @@ align-self: center;
         flex-direction: column;
         align-self: center;
         height: 1927px; 
-        width: 1177px;
+        width: 100%;
         margin: 135px 123px 135px 123px;
 
       }
 
   .featureBox1, .featureBox2 {
    
-        width: 540px;
+        width: 576px;
         height: 705px;
         background-color: #F6F7F9;
         border-radius: 20px;
@@ -413,6 +436,677 @@ width: auto;
 }
 
 /* feature section ends here */
-
 /* CTA Section */
 
+.CTA-container{
+width: 1190px;
+height: 432px;
+background-color: #680DB3;
+border-radius: 24px;
+display: flex;
+margin: 45px auto 80px auto;
+}
+
+.CTA-div{
+    align-self: center;
+    margin-left: 54px;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width: auto;
+}
+
+.CTA_p{
+    width: 181px;
+height: 24px;
+font-family: 'Roboto';
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+color: #FFFFFF;
+margin: 0%;
+padding-bottom: 20px;
+}
+
+.CTA-h5{
+    font-family: 'Outfit';
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+width: 512px;
+height: 96px;
+color: #FFFFFF;
+margin: 0%;
+padding-bottom: 20px;
+}
+
+
+.CTA-p2{
+width: 422px;
+height: 48px;
+font-family: 'Roboto';
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+color: #FFFFFF;
+margin: 0%;
+padding-bottom: 20px;
+}
+
+.CTA-btn{
+    width: 225px;
+    height: 51px;
+    border-radius: 8px;
+    color: #FFFFFF;
+   font-family: 'Roboto';
+font-size: 16px;
+font-weight: 500;
+line-height: 19.2px;
+text-align: center;
+margin: 0%;
+border: #FFFFFF;
+}
+
+.CTA-btn a{
+    color: #8009E7;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+.svgs{
+   width: 645.8px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     position: relative;
+    }
+
+svg{
+    position: absolute;
+}
+
+.startups{
+    width: 99px;
+height: 38px;
+flex-shrink: 0;
+border-radius: 12px;
+background: rgba(204, 95, 95, 0.41);
+border: none;
+color: #fff;
+font-family: 'Outfit';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; 
+box-sizing: border-box;
+position: relative;
+bottom: 120px;
+/* : 74px 351px 320px 300.2px; */
+
+}
+
+.traders{
+    width: 99px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 12px;
+background: rgba(204, 95, 95, 0.41);
+border: none;
+color: #fff;
+font-family: 'Outfit';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; 
+position: relative;
+top:30px;
+left: 20px;
+}
+
+.businessOwners{
+    width: 162px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: rgba(204, 95, 95, 0.41);
+    border: none;
+    color: #fff;
+font-family: 'Outfit';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; 
+position: relative;
+top: 150px;
+left: 200px;
+}
+
+.memoji{
+    position: relative;
+   right:400.8px;
+   top:60px;
+}   
+
+.memoji1{
+    position: relative;
+    bottom:40px;
+    right: 320px;
+   
+}
+
+.memoji2{
+    position: relative;  
+   top:70px;
+  left: 40px;
+}
+
+
+.memoji3{
+    position: relative;  
+   bottom: 170px;
+  right:100px;
+}
+
+.memoji4{
+    position: relative;
+top: 202px;
+right: 200px;
+}
+
+.memoji5{
+    position: relative;
+    left: 20px
+}
+
+/* CTA Section ends here */
+
+/* Plan and Pricing section starts here */
+
+
+.PricingSection{
+    height: 800px;
+    width: auto;
+    display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+
+.centrediv-PricingSection{
+    width: 700px;
+    height: 85px;
+align-self: center;
+align-content: center;
+display: flex;
+flex-direction: column;
+
+}
+
+
+
+.H4-PricingSection{
+    width: 388px;
+    height: 43px;
+   text-align: center;
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 26.4px;
+    margin: 0%;
+color:#680DB3; 
+align-self: center;
+
+
+}
+
+.H3-PricingSection{
+    font-family: 'Outfit';
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.2px;
+    width: 750px;
+    margin: 0%;  
+    text-align: center;
+    align-self: center;
+}
+
+.pricing-plans{
+    width: 1190px;
+    height: 494px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-plan{
+    width: 374.33px;
+    border: 0.2px solid  #B0B0B0;
+    background: #F3F5F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.lines {
+    width:auto;
+    height: 26px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ppheader{
+    color: #000;
+ text-align: center;
+font-family: 'Roboto';
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+}
+
+.list-container{
+    height: 240px;
+    width: auto;
+    margin-left: 35.47px;
+}
+
+.list-containerP{
+    color: #000;
+font-family: 'Roboto';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.6px; 
+}
+
+
+.list-container li{
+    color: #000;
+font-family: 'Roboto';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.6px; 
+margin-top: 20px;
+}
+
+.listbtn
+{
+display: flex;
+width: 306.954px;
+height: 55.987px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid  #8009E7;
+background:  #8009E7;
+justify-self: center;
+
+margin: auto;
+}
+
+.listbtn a{
+    text-decoration: none;
+    color: #F3E5FF;
+    font-family: 'Roboto';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+width: 350.954px;
+height: 55.987px;
+align-content: center;
+} 
+/* plans and pricing section ends here */
+
+/* Users section starts here */
+/* Users section starts here */
+
+.usersSection{
+    width: 1440px;
+    height: 670px;
+}
+
+.bi-quote{
+    margin-left: 113px;
+    margin-top: 35px;
+}
+
+
+
+.centrediv-UsersSection{
+    width: 700px;
+    height: 85px;
+ 
+align-self: center;
+ display: flex; 
+flex-direction: column;
+padding-left: 120px;
+padding-top: 71px;
+}
+
+
+.Xdiv{
+width: 1440px;
+    display: flex;
+    align-items: center;
+}
+
+
+.H3-UsersSection{
+    font-family: 'Outfit';
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.2px;
+    width: 319px;
+    margin: 0%;  
+    text-align: center;
+    align-self: center;
+    color: #000;
+ font-style: normal;
+line-height: 120%; /* 43.2px */
+
+}
+
+.Ourusers{
+color:#5A0D96;
+font-family: 'Outfit';
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+}
+
+.line{
+width: 270px;
+border-bottom: 0.5px solid #6D6D6D;
+align-self: center;
+padding-top: 10px;
+}
+/* wORK ON A TAGS. A TAGS SHOULD BE AS WIDE AS THE BUTTONS */
+.UsersFeedbacks{
+    width: 1312px;;
+    margin-left: 128px;
+    height: 310px;
+    display: flex;
+    gap: 48px;
+    overflow:hidden;
+    
+}
+.userfeedbackbox{
+    border: 0.2px solid #3D0071;
+    width: 370px;
+    height: 302px;
+    padding-left: 50px;
+    padding-right: 50px;
+box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.10), 0px 2px 4px -2px rgba(17, 24, 39, 0.06); 
+}
+
+.userprofile, .usercomment{
+     width: 370px;
+     height: 151px;
+    
+}
+
+.userprofile{
+    border-bottom: 1px solid #808080;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly; 
+    align-items: center;
+    
+    
+
+}
+
+.profilepic{
+width: 94px;
+height: 94px;
+}
+
+.names{
+    width: 196px;
+height: 31px;
+color:  #3D3D3D;
+font-family: 'Roboto';
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+margin: 0%;
+line-height: 120%; /* 24px */
+}
+
+.occupation{
+    width: 266px;
+height: 32px;
+flex-shrink: 0;
+color:  #3D3D3D;
+font-family: 'Roboto';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+margin: 0%;
+line-height: 120%; /* 24px */
+}
+
+.usercomment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.comment{
+    width: 370px;
+height: 90px;
+flex-shrink: 0;
+color: var(--Color-Neutral-Neutral-500, #6D6D6D);
+font-family: 'Roboto';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 24px */
+
+}
+
+.MobileAppsection{
+    width: 1440px;
+height: 1127px;
+
+}
+
+
+.appCTA{
+    width: 1370px;
+height: 952px;
+flex-shrink: 0;
+border-radius: 10px;
+background:  #680DB3;
+margin: 109px 35px 66px 35px;
+display: flex;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+}
+
+.appCTAh2{
+    color: #FFF;
+text-align: center;
+font-family: 'Outfit';
+font-size: 62px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 74.4px */
+margin: 0%;
+padding-top: 77px;
+padding-bottom: 20px;
+}
+
+.appCTAh3{
+    color: #FFF;
+text-align: center;
+font-family: 'Roboto';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 24px */
+width: 536px;
+margin: 0%;
+}
+
+.appCTAbtncontainer{
+    width: 265.9px;
+    height: 46px;
+    margin-top: 32px;
+    padding: 0%;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+   
+}
+
+.Download1,.Download2{
+    width: 120.95px;
+height: 46px;
+gap: 10px;
+border-radius: 5px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+.appCTAbtncontainer a{
+    max-width: fit-content;
+    height: 46px;
+}
+
+/* Mobile app section ends here */
+
+
+/* Footer starts here */
+.footerSection{
+   width:  1440px;
+height: 568px;
+background-color:  #FCF9FF;
+
+}
+
+.footercontainer{
+    width: 1186px;
+height: 331px;
+flex-shrink: 0;
+gap: 230.26px;
+display: flex;
+margin: 118px 127px 0px 127px;
+border-bottom: 1px solid #CEBEFE;
+}
+
+
+/* .rekoda, .footers{
+    border: 1px solid black;
+} */
+
+.rekoda{
+    width:166px;
+}
+
+.footers{
+    width: 789.74px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h5rekoda{
+font-family: 'Roboto';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 28.8px */
+color: #680DB3;
+text-align: justify;
+margin: 0%;
+}
+
+.Prekoda{
+    margin-top: 32px;
+    text-align: justify;
+    color: #596780;
+font-family: Roboto;
+font-size: 18px;
+width: 166px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 21.6px */
+}
+
+
+.product, .company, .resources, .followus{
+    display: flex;
+    width: 165.28px;
+    height: 250px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.producth5
+{color:  #1A202C;
+text-align: justify;
+font-family: 'Roboto';
+font-size: 21px;
+margin: 0px 0px 32px 0px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 25.2px */}
+
+.productptag{
+color:  #596780;
+text-align: justify;
+font-family: 'Roboto';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+width: auto;
+margin-bottom: 24px;
+}
+
+.product a, .company a, .resources a, .followus a{
+    text-decoration: none;
+    margin-bottom: 24px;
+   
+}
+.productptag{
+    margin: 0px;
+}
+
+.trademark{
+    color: #596780;
+text-align: justify;
+font-family: "Plus Jakarta Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+padding-bottom: 48px;
+float: inline-end;
+padding: 0;
+margin: 46px 127px 48px;
+}
+
+/* .productdiv > *:not(:last-child){
+    
+} */
+
+
+
+
+
+/* 66, 35, 109 */
