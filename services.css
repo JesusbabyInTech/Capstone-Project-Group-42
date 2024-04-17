@@ -1,0 +1,415 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background:  #FFFFFF;
+    padding: 0%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Nav and header styling starts here */
+
+.logo{
+    width: 56px;
+height: 52px;
+}
+
+.navLinkchild, .navLinktag, .navlinkbtn, #cac-btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #8009E7;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    box-sizing: border-box;
+    padding: 0px 128px;
+    border-bottom: 1.5px solid rgba(245, 234, 255, 0.50);
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(17, 24, 39, 0.06);
+    width: 1440px;
+    position: fixed;
+    z-index: 700;
+}
+
+.navLinks{
+    padding: 0;
+}
+
+.navLinks li {
+    margin-right: 40px;
+}
+
+/* .material-symbols-outlined{
+    align-self: 
+} */
+
+.navLinkchild {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 12px;
+    }
+
+#cac-btn{
+    width: 168px;
+    height: 44px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: 1px ;
+    background-color: #8009E7;
+    cursor: pointer;
+}
+
+/* .material-symbols-outlined{
+
+} */
+
+#login-btn{
+width: 83.13px;
+height: 44px;
+border-radius: 8px;
+cursor: pointer;
+box-sizing: border-box;
+background-color: #FFFFFF;
+border: 0.5px solid #e9cfff ;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 271.13px;
+}
+/* Grid styling */
+.gridContainer{
+    display: grid;
+    gap: 0;
+    width: 1440px;
+}
+
+
+/* Hero section begins here */
+.heroSection{
+    border: 1px solid black;
+    width: 1440px;
+    height:636px;
+    margin-top: 153px;
+   background-image: url(Images/image\ 9.png);
+}
+
+/* Hero Section ends here */
+/* Feature section starts here */
+
+.featuresSection{
+    height: auto;
+    background-color:#FFFFFF;
+    box-sizing: border-box;
+    display: flex;
+    height: 2200px;
+    width: 1440px;
+    justify-content: center;
+    
+    /* padding-top: 102px; */
+    }
+
+    
+    .FeatureSection-container{
+    
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            align-self: center;
+            height: 2004px; 
+            width: 1184px;
+            position: relative;
+    z-index: 720;
+            /* margin: 135px 123px 135px 123px; */
+    
+          }
+    
+      .featureBox1, .featureBox2 {
+       
+           width: 1184px;
+           height: 476px;
+            flex-shrink: 0;
+            background-color: #F6F7F9;
+            border-radius: 20px;
+            display: flex;
+            box-sizing: border-box;
+            padding: 97px 54px 0 51px;
+            gap: 50px;
+            /* column-gap: auto;
+            flex-wrap: wrap;
+            align-content: space-between;   
+            position: relative;      */
+    }
+    
+    /* .featureBox1{
+        align-self:flex-start 
+    }
+    
+    .featureBox2{
+        align-self: flex-end;
+    } */
+    .features{
+        height: auto;
+        display: flex;
+width: 560px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+        /* flex-wrap: wrap; 
+        gap: 16px;
+        margin-top: 62px;
+        margin-left: 54px;
+        margin-right: 38px; */
+     
+    
+    }
+    
+    .features-iconContainer{
+        width: 56px;
+        height: 56px;
+        border-radius: 12px;
+        background-color:#8057CCCC;
+        display: flex; 
+        /* margin-top: 97px; */
+        
+    }
+    
+    .featuresh5 ,.featuresp{
+        margin: 0%;
+    }
+    
+    .featuresh5{
+        color: #101828;
+font-family: 'Outfit';
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 43.2px */
+padding-top: 16px;
+width: 398px;
+    }
+    
+    .featuresp
+    {
+        color: #667085;
+        padding-top: 16px;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 21.6px */
+    }
+    
+    .featureImg{
+        width: 462.083px;
+        height: 378px;
+        float: right;
+    }
+        
+    /* feature section ends here */
+
+    /* Mobile aPP SECTion starts here */
+
+    .MobileAppsection{
+        width: 1440px;
+    height: 1000px;
+    
+    }
+    
+    
+    .appCTA{
+        width: 1370px;
+    height: 952px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background:  #680DB3;
+    margin: 109px 35px 66px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    z-index: 720;
+    }
+    
+    .appCTAh2{
+        color: #FFF;
+    text-align: center;
+    font-family: 'Outfit';
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 74.4px */
+    margin: 0%;
+    padding-top: 77px;
+    padding-bottom: 20px;
+    }
+    
+    .appCTAh3{
+        color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+    width: 536px;
+    margin: 0%;
+    }
+    
+    .appCTAbtncontainer{
+        width: 265.9px;
+        height: 46px;
+        margin-top: 32px;
+        padding: 0%;
+        gap: 24px;
+        opacity: 0px;
+        display: flex;
+       
+    }
+    
+    .Download1,.Download2{
+        width: 120.95px;
+    height: 46px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    
+    }
+    .appCTAbtncontainer a{
+        max-width: fit-content;
+        height: 46px;
+    }
+    
+    /* Mobile app section ends here */
+    
+    
+    /* Footer starts here */
+    .footerSection{
+       width:  1440px;
+    height: 568px;
+    background-color:  #FCF9FF;
+    margin-bottom: 78px;
+    
+    }
+    
+    .footercontainer{
+        width: 1186px;
+    height: 331px;
+    flex-shrink: 0;
+    gap: 230.26px;
+    display: flex;
+    margin: 0px 127px 0px 127px;
+    border-bottom: 1px solid #CEBEFE;
+    padding-top: 118px;
+    }
+    
+    
+    /* .rekoda, .footers{
+        border: 1px solid black;
+    } */
+    
+    .rekoda{
+        width:166px;
+    }
+    
+    .footers{
+        width: 789.74px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .h5rekoda{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+    color: #680DB3;
+    text-align: justify;
+    margin: 0%;
+    }
+    
+    .Prekoda{
+        margin-top: 32px;
+        text-align: justify;
+        color: #596780;
+    font-family: Roboto;
+    font-size: 18px;
+    width: 166px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 21.6px */
+    }
+    
+    
+    .product, .company, .resources, .followus{
+        display: flex;
+        width: 165.28px;
+        height: 250px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .producth5
+    {color:  #1A202C;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 21px;
+    margin: 0px 0px 32px 0px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 25.2px */}
+    
+    .productptag{
+    color:  #596780;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: auto;
+    margin-bottom: 24px;
+    }
+    
+    .product a, .company a, .resources a, .followus a{
+        text-decoration: none;
+        margin-bottom: 24px;
+       
+    }
+    .productptag{
+        margin: 0px;
+    }
+    
+    .trademark{
+        color: #596780;
+    text-align: justify;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+    padding-bottom: 48px;
+    float: inline-end;
+    padding: 0;
+    margin: 46px 127px 48px;
+    }
+    /* Footer ends here */
