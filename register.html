@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /><link rel="stylesheet" href="register.css" />
+</head>
+<body>
+  <section class="Navbar" id="Nav-bar">
+  <a href="./index.html" class="home"><h3 class="rekoda">Rekoda</h3></a>
+  <a href="login.html" class="navLinktag">Already have an account? <span>Login</span></a>
+  </section>
+
+  <section  class="registersection">
+    <div class="productinfo" id= "productinfo">
+      <div class="productinfoImg" id="productinfoimg"></div>
+      <div class="swipe"> 
+       <div class="swipers" id= "swiper1"></div>
+       <div class="swipers" id= "swiper2"></div>
+       <div class="swipers" id= "swiper3"></div>
+     </div>
+     <h5 id="ImageDes">Documentation of business processes</h5>
+     <p id="Imagepara">Bookkeeping, invoice, inventory and dashboard  </p>
+      </div>
+   <div class="formcontainer">
+    <div class="formBox">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <h3 class="Wb">Easily Keep Track of your Business Activities</h3>
+      <p class="Wba">Please Fill in your business information to start transacting easily with Rekoda</p>
+    </div>
+
+    <form action="" class="register-form">
+      <div class="fNlN">
+        <div>
+            <label for="Firstname">First Name</label>
+        <input type="text" id="Firstname" placeholder="Enter first name">
+        </div>
+         <div>
+            <label for="Lastname">Last Name</label>
+            <input type="text" id="Lastname" placeholder="Enter last name">
+         </div>
+      </div>
+      <label for="Email">Email address</label>
+      <input type="email" id="Email" placeholder="example@gmail.com">
+      <label for="Phone">Phone Number</label>
+      <input type="phonenumber" id="Phone" placeholder="+2345678902446">
+      <label for="Password">Password</label>
+      <input type="password" id="Password" placeholder="****">
+      <label for="SignUser">Username</label>
+      <input type="text" id="SignUser" placeholder="">
+      
+      <button type="submit" value="submit" class="register-btn" onclick="signup()">Continue</button>
+    </form>
+    <p class="support">Having issues or questions? <Span> <a href="FAQs.html">Contact Support</a></Span> </p>
+    </div>
+   </div>
+  </section>
+</body>
+<script src="register.js"></script>
+</html>

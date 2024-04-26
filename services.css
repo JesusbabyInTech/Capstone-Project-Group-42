@@ -45,6 +45,18 @@ height: 52px;
     padding: 0;
 }
 
+.navLinks li a:hover{
+    color: #D8A9FF;
+ }   
+
+ #cac-btn:hover{
+    width: 171px;
+}
+#login-btn:hover{
+    color: #FFFFFF; 
+    background-color:#D8A9FF ;
+}
+
 .navLinks li {
     margin-right: 40px;
 }
@@ -179,10 +191,16 @@ align-self: stretch;
         width: 56px;
         height: 56px;
         border-radius: 12px;
-        background-color:#8057CCCC;
+        background-color:#A93EFF;
         display: flex; 
+        justify-content: center;
+        align-items: center;
         /* margin-top: 97px; */
         
+    }
+    .features-iconContainer img{
+        width: 24px;
+height: 24px;
     }
     
     .featuresh5 ,.featuresp{
@@ -225,6 +243,10 @@ width: 398px;
         width: 1440px;
     height: 1000px;
     
+    }
+
+    .mobileappimg{
+        margin-top: 114px;
     }
     
     
