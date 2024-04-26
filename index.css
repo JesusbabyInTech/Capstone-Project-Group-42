@@ -1,0 +1,182 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+    background-color: white;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: white;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left; 
+    color: #680DB3; 
+    font-size: 33px; 
+    font-family: Inter; 
+    font-weight: 600; line-height: 16px;
+     letter-spacing: 0.07px;
+}
+
+
+
+.main-content {
+    flex: 1;
+    padding: 80px 10px;
+
+}
+.header{
+    height: 50px;
+}
+
+
+#Welcome{
+color: #646464;
+ font-size: 24px;
+ font-family: Satoshi;
+ font-weight: 500;
+ line-height: 24px;
+}
+
+#Ayotilewa{
+color: #680DB3;
+ font-size: 24px;
+ font-family: Satoshi;
+ font-weight: 500;
+ line-height: 24px;
+}
+#back{
+    height: 40px;
+}
+
+#Sneak{
+    color: #8F92A1;
+     font-size: 16px;
+     font-family: Satoshi;
+     font-weight: 400;
+     height: 100px;
+     }
+
+ .board{
+color: #0F172A;
+ font-size: 32px;
+ font-family: Satoshi;
+ font-weight: 700;
+ line-height: 40px;
+     }
+    #gd{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+#duration{
+    color: #646464;
+     font-size: 14px;
+     font-family: Satoshi;
+     font-weight: 400;
+     line-height: 22px;
+     
+}
+    
+    #space{ 
+    color: #243B7F;
+     font-size: 14px;
+     font-family: Satoshi;
+     font-weight: 700;
+     line-height: 22px;
+    }
+    
+    #this{
+    color: black;
+     font-size: 14px;
+     font-family: Satoshi;
+     font-weight: 500;
+     line-height: 22px;
+     }
+     .summary{
+        height: 20px;
+     }
+.statistics {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Sales {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.Today{
+color: #05004E;
+font-size: 20px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 24px;
+margin-left: 20px;
+
+}
+button {
+    color: #0F3659;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 20px;
+   
+}
+
+.summary{
+color: #737791;
+font-size: 18px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 21.60px;
+margin-left: 20px;
+}
+
+#Recent{
+color: black;
+ font-size: 24px;
+ font-family: Roboto;
+ font-weight: 500;
+ line-height: 28.80px;
+ margin-left: 20px;
+ height: 100px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.table th {
+    background-color: #f2f2f2;
+}
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.table tr:hover {
+    background-color: #ddd;
+}
+.img-container img {
+    width: 40px;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+
